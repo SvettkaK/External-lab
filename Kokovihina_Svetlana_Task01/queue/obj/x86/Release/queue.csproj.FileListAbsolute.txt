@@ -1,0 +1,4 @@
+G:\External lab\Kokovihina_Svetlana_Task01\queue\bin\Release\queue.exe
+G:\External lab\Kokovihina_Svetlana_Task01\queue\bin\Release\queue.pdb
+G:\External lab\Kokovihina_Svetlana_Task01\queue\obj\x86\Release\queue.exe
+G:\External lab\Kokovihina_Svetlana_Task01\queue\obj\x86\Release\queue.pdb

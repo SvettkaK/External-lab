@@ -1,0 +1,4 @@
+G:\External lab\Kokovihina_Svetlana_Task01\stack\bin\Debug\stack.exe
+G:\External lab\Kokovihina_Svetlana_Task01\stack\bin\Debug\stack.pdb
+G:\External lab\Kokovihina_Svetlana_Task01\stack\obj\x86\Debug\stack.exe
+G:\External lab\Kokovihina_Svetlana_Task01\stack\obj\x86\Debug\stack.pdb

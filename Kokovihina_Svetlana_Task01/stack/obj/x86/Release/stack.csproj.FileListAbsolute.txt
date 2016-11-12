@@ -1,0 +1,4 @@
+G:\External lab\Kokovihina_Svetlana_Task01\stack\bin\Release\stack.exe
+G:\External lab\Kokovihina_Svetlana_Task01\stack\bin\Release\stack.pdb
+G:\External lab\Kokovihina_Svetlana_Task01\stack\obj\x86\Release\stack.exe
+G:\External lab\Kokovihina_Svetlana_Task01\stack\obj\x86\Release\stack.pdb

@@ -1,0 +1,5 @@
+G:\External lab\Kokovihina_Svetlana_Task01\Task06\bin\Release\Task06.exe
+G:\External lab\Kokovihina_Svetlana_Task01\Task06\bin\Release\Task06.pdb
+G:\External lab\Kokovihina_Svetlana_Task01\Task06\obj\x86\Release\Task06.exe
+G:\External lab\Kokovihina_Svetlana_Task01\Task06\obj\x86\Release\Task06.pdb
+G:\External lab\Kokovihina_Svetlana_Task01\Task06\obj\x86\Release\Task06.csprojResolveAssemblyReference.cache
