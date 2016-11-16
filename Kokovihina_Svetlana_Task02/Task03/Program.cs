@@ -20,6 +20,7 @@ namespace Task03
                 Console.Write("[{0}] {1}\n", i, arr[i]);
             }
             Console.Write("Сумма неотрицательных элементов = {0}\n", sum);
+            Console.ReadKey();
         }
     }
 }

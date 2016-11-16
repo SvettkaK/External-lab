@@ -18,7 +18,7 @@ namespace Task01
                 arr[i] = rand.Next(100);
                 Console.Write("[{0}] {1}\n",i,arr[i]);
             }
-
+            Console.ReadKey();
         }
     }
 }

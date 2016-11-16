@@ -40,6 +40,7 @@ namespace Task02
                 }
 
             }
+            Console.ReadKey();
         }
     }
 }

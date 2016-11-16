@@ -23,6 +23,7 @@ namespace Task04
                 }
             }
             Console.Write("Сумма элементов = {0}\n", sum);
+            Console.ReadKey();
         }
     }
 }
