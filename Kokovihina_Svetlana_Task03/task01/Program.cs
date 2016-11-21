@@ -16,16 +16,34 @@ namespace task01
                 {
                     Console.WriteLine("Введите текст:");
 
-                    char[] separators = { ',', '.', '!', '?', ';', ':', ' ', '-', '(', ')', '\n' };//todo говорил же использовать Char.IsSeparator или что-то подобное
+                    char[] str = Console.ReadLine().ToCharArray();
 
-                    string[] words = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
+                    int countWords = 1;
+                    int countLetter = 0;
+                    bool endword = false;
 
-                    int sum = 0;
-                    for (int i = 0; i < words.Length; i++)
+                    for (int i = 0; i < str.Length; i++)
                     {
-                        sum += words[i].Length;
+                        if(!Char.IsSeparator(str[i]))
+                        {
+                            if(i + 1 < str.Length && Char.IsSeparator(str[i + 1]))
+                            {
+                                endword = true;
+                            }
+                            else
+                            {
+                                endword = false;
+                            }
+                            countLetter++;
+                        }
+                        else
+                        {
+                            endword = false;
+                        }
+                        if(endword) countWords++; 
                     }
-                    Console.WriteLine("Средняя длина слова = {0}", sum / words.Length);
+                    
+                    Console.WriteLine("Средняя длина слова = {0}", countLetter / countWords);
 
                     Console.WriteLine("\nПовторить(+/-)?");
                     ans = char.Parse(Console.ReadLine());
