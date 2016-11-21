@@ -16,7 +16,7 @@ namespace task01
                 {
                     Console.WriteLine("Введите текст:");
 
-                    char[] separators = { ',', '.', '!', '?', ';', ':', ' ', '-', '(', ')', '\n' };
+                    char[] separators = { ',', '.', '!', '?', ';', ':', ' ', '-', '(', ')', '\n' };//todo говорил же использовать Char.IsSeparator или что-то подобное
 
                     string[] words = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
