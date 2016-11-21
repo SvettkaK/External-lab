@@ -8,12 +8,12 @@ namespace Task02
 {
     class Triangle
     {
-        public int a;
+        public int a;//todo где проверки на отрицательность?
         public int b;
         public int c;
 
         public Triangle(int A, int B, int C)
-        {
+        {//todo где проверка на соотношение сторон?
             a = A;
             b = B;
             c = C;

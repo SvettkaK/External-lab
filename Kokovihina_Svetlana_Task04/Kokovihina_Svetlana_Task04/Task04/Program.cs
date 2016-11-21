@@ -23,7 +23,7 @@ class MyString
         set { str = value; }
     }
 
-    public static MyString operator +(MyString str1, MyString str2)
+    public static MyString operator +(MyString str1, MyString str2)//todo ты строки только складываешь? а как же сравнение строк (==, !=)? Поиск подстроки в строке? Замена подстроки в строке? Напиши хотя бы эти методы, но я тебя не ограничиваю :)
     {
         char[] s1 = str1.StrVal;
         char[] s2 = str2.StrVal;

@@ -22,8 +22,8 @@ class User
         LastName = l;
         Patronymic = p;
         Birth = b;
-        if (Age == 0 && Birth != new DateTime(0001, 01, 01)) Age = GetAge();
-        else Age = a;
+        if (Age == 0 && Birth != new DateTime(0001, 01, 01)) Age = GetAge();//todo отступы. StyleCop, видимо, не запускала?
+        else Age = a; 
     }
 
     public string Name
@@ -31,7 +31,7 @@ class User
         get
         {
             if (name.Length > 0) return name;
-            else return "<Имя>";
+            else return "<Имя>";//todo константы лучше хардкода
         }
         set { name = value; }
     }
@@ -119,7 +119,7 @@ namespace Task03
                 Console.Write("Отчество:");
                 user.Patronymic = Console.ReadLine();
                 Console.WriteLine("Дата рождения (год месяц день):", user.Birth);
-                user.Birth = new DateTime(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+                user.Birth = new DateTime(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));//todo не самый лучший вариант. Посмотри в сторону DateTime.Parse / DateTime.ParseExact
                 user.GetAge();
                 Console.WriteLine(user.info());
 

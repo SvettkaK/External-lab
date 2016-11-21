@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace Task01
 {
-   class Round
+   class Round //todo классы принято создавать в отдельных файлах
     {
-        public int r;
+        public int r;//todo где проверка на отрицательный радиус?
         public int x = 0;
         public int y = 0;
 
