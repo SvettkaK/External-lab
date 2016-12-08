@@ -40,9 +40,9 @@ class Figure
 /// <summary>
 /// Линия
 /// </summary>
-class Line : Figure
+class Line : Figure//todo вынести в отдельный файл
 {
-    public int X1 { get; set; }
+    public int X1 { get; set; }//todo а чем не понравились родительские координаты X и Y? в line достаточно было ещё + 2 объявить
     public int Y1 { get; set; }
     public int X2 { get; set; }
     public int Y2 { get; set; }
@@ -80,7 +80,7 @@ class Line : Figure
 /// <summary>
 /// Окружночть
 /// </summary>
-class Circle : Figure
+class Circle : Figure//todo вынести в отдельный файл
 {
     public int Radius { get; set; }
 
@@ -105,7 +105,7 @@ class Circle : Figure
 /// <summary>
 /// Пямоугольник
 /// </summary>
-class Reсtangle : Figure
+class Reсtangle : Figure//todo вынести в отдельный файл
 {
     public int SideA { get; set; }
     public int SideB { get; set; }
@@ -144,7 +144,7 @@ class Reсtangle : Figure
 /// <summary>
 /// Круг
 /// </summary>
-class Round : Figure
+class Round : Figure//todo вынести в отдельный файл
 {
     public int Radius { get; set; }
 
@@ -174,7 +174,7 @@ class Round : Figure
 /// <summary>
 /// Кольцо
 /// </summary>
-class Ring : Figure
+class Ring : Figure//todo вынести в отдельный файл
 {
     public int Radius1 { get; set; }
     public int Radius2 { get; set; }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class User
+class User//todo вынести в отдельный файл
 {
     public string name;
     public string lastname;
@@ -24,14 +24,14 @@ class User
         LastName = l;
         Patronymic = p;
         Birth = b;
-        if (Birth != new DateTime(0001, 01, 01)) Age = GetAge();
+        if (Birth != new DateTime(0001, 01, 01)) Age = GetAge();//todo на новую строку и обрамить скобками
     }
 
     public string Name
     {
         get
         {
-            if (name.Length > 0) return name;
+            if (name.Length > 0) return name;//todo длина строки не бывает отрицательной
             else return "<Имя>";
         }
         set { name = value; }
@@ -41,7 +41,7 @@ class User
     {
         get
         {
-            if (lastname.Length > 0) return lastname;
+            if (lastname.Length > 0) return lastname;//todo длина строки не бывает отрицательной
             else return "<Фамилия>";
         }
         set { lastname = value; }
@@ -51,7 +51,7 @@ class User
     {
         get
         {
-            if (patronymic.Length > 0) return patronymic;
+            if (patronymic.Length > 0) return patronymic;//todo длина строки не бывает отрицательной
             else return "<Отчество>";
         }
         set { patronymic = value; }
@@ -95,7 +95,7 @@ class User
     }
 }
 
-class Employee : User
+class Employee : User//todo вынести в отдельный файл
 {
     public int Еxperience { get; set; }
     public string Position { get; set; }
@@ -162,7 +162,7 @@ namespace Task01
                 Employee emp2 = new Employee();
                 emp2.Position = "Дизайнер";
                 emp2.Birth = new DateTime(1900, 08, 02);
-                emp2.WorksF = new DateTime(2001, 01, 01);
+                emp2.WorksF = new DateTime(1888, 01, 01);//todo нет проверки того, что стаж мб больше возраста
                 Console.WriteLine(emp2.info());
 
             }

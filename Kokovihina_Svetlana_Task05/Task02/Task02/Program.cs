@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Round
+class Round//todo вынести в отдельный файл
 {
     public int R { get; set; }
     public int X { get; set; }
@@ -36,7 +36,7 @@ class Round
         return String.Format("Круг с цетром ({0};{1}) и радиусом R = {2} имеет площадь = {3:0.##} и периметр = {4:0.##}", X, Y, R, Area(), Length());
     }
 }
-class Ring : Round
+class Ring : Round//todo вынести в отдельный файл
 {
     public int R2 { get; set; }
 
